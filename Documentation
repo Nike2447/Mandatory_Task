@@ -1,0 +1,16 @@
+Mergesort is an array sorting algorithm which divides the given array into two halves and then again calls the function on those two halves.
+Then it merges both the halves after sorting.
+
+In my code i have defined a function mergesort(array) which takes an array as an input.
+
+First we check if there are elements in the array before proceeding.
+Then the middle element is initialized.
+After which two lists(L,R) for both the halves is made.
+
+The function is again called for both the halves respectively.
+
+Three variables(a,b,c) where a,b,c are the first elements of the lists L,R,array respectively.
+
+Then a while loop is created to traverse both the arrays and check the smallest number which is then added to the main array.
+
+After this the rest of the elements left in the right or left array are added to the main one.
